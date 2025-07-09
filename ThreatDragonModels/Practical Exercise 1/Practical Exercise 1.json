@@ -1436,8 +1436,8 @@
             },
             "vertices": [
               {
-                "x": -130,
-                "y": -260
+                "x": -120,
+                "y": -270
               }
             ]
           },
@@ -1461,7 +1461,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Send menu item \ncreated confirmation \nto Administrator",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1474,12 +1474,12 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Send menu item \ncreated confirmation \nto Administrator"
             ],
             "id": "665478c0-50c8-4df4-8190-10648a7752d9",
             "source": {
               "x": 180,
-              "y": -170
+              "y": -160
             },
             "target": {
               "x": -410,
