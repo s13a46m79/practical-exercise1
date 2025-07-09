@@ -819,57 +819,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Manager request to\nview basic sales report",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Manager request to\nview basic sales report"
-            ],
-            "id": "bd3d98d7-0e35-4b12-b835-671840d65df9",
-            "source": {
-              "x": -110,
-              "y": -170
-            },
-            "target": {
-              "x": 350,
-              "y": -130
-            },
-            "vertices": [
-              {
-                "x": 150,
-                "y": -170
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Query aggregated \nsales data",
               "description": "",
               "outOfScope": false,
@@ -1047,16 +996,6 @@
               "x": 470,
               "y": -20
             },
-            "vertices": [
-              {
-                "x": 410,
-                "y": 220
-              },
-              {
-                "x": 430,
-                "y": 70
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -1096,7 +1035,17 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 220
+              },
+              {
+                "x": 430,
+                "y": 70
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1146,6 +1095,103 @@
               {
                 "x": 520,
                 "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manager request to\nview basic sales report",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Manager request to\nview basic sales report"
+            ],
+            "id": "bd3d98d7-0e35-4b12-b835-671840d65df9",
+            "source": {
+              "x": -110,
+              "y": -130
+            },
+            "target": {
+              "x": 350,
+              "y": -130
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send sales data to Manager",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send sales data to Manager"
+            ],
+            "id": "54c46801-5a04-410a-b698-f70c69691869",
+            "source": {
+              "x": 350,
+              "y": -100
+            },
+            "target": {
+              "x": -100,
+              "y": -90
+            },
+            "vertices": [
+              {
+                "x": 70,
+                "y": -90
               }
             ]
           },
@@ -1322,17 +1368,7 @@
                 "x": 220,
                 "y": 140
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           }
         ]
       }
