@@ -19,6 +19,69 @@
         "cells": [
           {
             "position": {
+              "x": -770.0000000000056,
+              "y": -809.999999999998
+            },
+            "size": {
+              "width": 480,
+              "height": 880
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "6025172b-191c-40d6-8eea-efb3cb19e1ce",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 129.99999999999636,
+              "y": -809.9999999999959
+            },
+            "size": {
+              "width": 720,
+              "height": 1330
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "c33a17a6-6999-4702-bf2f-06c8037b873d",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 1137.999999999992,
+              "y": -409.9999999999967
+            },
+            "size": {
+              "width": 540,
+              "height": 560
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "75be187e-4c93-40df-906b-2186649516a6",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": -600,
               "y": -730
             },
@@ -756,70 +819,6 @@
             ]
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              ""
-            ],
-            "id": "ef17abe0-480a-4764-9fc5-84bfbbebfe97",
-            "source": {
-              "x": 830,
-              "y": -630
-            },
-            "target": {
-              "x": 780,
-              "y": 530
-            },
-            "vertices": [
-              {
-                "x": 1030,
-                "y": -130
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              ""
-            ],
-            "id": "50e09a23-2f16-447e-ba3b-aa27c9fb68a4",
-            "source": {
-              "x": 260,
-              "y": -640
-            },
-            "target": {
-              "x": 140,
-              "y": 530
-            },
-            "vertices": [
-              {
-                "x": -10,
-                "y": -130
-              }
-            ]
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1018,8 +1017,8 @@
             },
             "vertices": [
               {
-                "x": -80,
-                "y": -480
+                "x": -20,
+                "y": -460
               }
             ]
           },
