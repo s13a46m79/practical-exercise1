@@ -394,159 +394,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Query aggregated \nsales data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Query aggregated \nsales data"
-            ],
-            "id": "cf0b8d56-0cb3-47a6-826c-9644346113b3",
-            "source": {
-              "x": 580,
-              "y": -59
-            },
-            "target": {
-              "x": 570,
-              "y": 390
-            },
-            "vertices": [
-              {
-                "x": 640,
-                "y": 130
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send back \nrequested sales\ndata",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send back \nrequested sales\ndata"
-            ],
-            "id": "f704f8e5-3e11-415e-937a-e911faf1b9ff",
-            "source": {
-              "x": 600,
-              "y": 390
-            },
-            "target": {
-              "x": 610,
-              "y": -60
-            },
-            "vertices": [
-              {
-                "x": 750,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update order \nstatus",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Update order \nstatus"
-            ],
-            "id": "1fdf2828-1256-407e-a382-84ce54ff0e64",
-            "source": {
-              "x": 530,
-              "y": -50
-            },
-            "target": {
-              "x": 520,
-              "y": 380
-            },
-            "vertices": [
-              {
-                "x": 520,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Customer submit order",
               "description": "",
               "outOfScope": false,
@@ -1152,6 +999,163 @@
               {
                 "x": 430,
                 "y": 70
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update order \nstatus",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Update order \nstatus"
+            ],
+            "id": "1fdf2828-1256-407e-a382-84ce54ff0e64",
+            "source": {
+              "x": 530,
+              "y": -90
+            },
+            "target": {
+              "x": 540,
+              "y": 370
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query aggregated \nsales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Query aggregated \nsales data"
+            ],
+            "id": "cf0b8d56-0cb3-47a6-826c-9644346113b3",
+            "source": {
+              "x": 590,
+              "y": -110
+            },
+            "target": {
+              "x": 650,
+              "y": 380
+            },
+            "vertices": [
+              {
+                "x": 640,
+                "y": -50
+              },
+              {
+                "x": 650,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send back \nrequested sales\ndata",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send back \nrequested sales\ndata"
+            ],
+            "id": "f704f8e5-3e11-415e-937a-e911faf1b9ff",
+            "source": {
+              "x": 740,
+              "y": 380
+            },
+            "target": {
+              "x": 680,
+              "y": -120
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 10
               }
             ]
           },
