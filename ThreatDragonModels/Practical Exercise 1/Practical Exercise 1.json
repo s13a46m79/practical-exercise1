@@ -971,108 +971,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send pending \norder data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send pending \norder data"
-            ],
-            "id": "92220c20-3c03-427f-bce4-86eb0913ea5b",
-            "source": {
-              "x": 430,
-              "y": 370
-            },
-            "target": {
-              "x": 430,
-              "y": -100
-            },
-            "vertices": [
-              {
-                "x": 430,
-                "y": 70
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Update order \nstatus",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Update order \nstatus"
-            ],
-            "id": "1fdf2828-1256-407e-a382-84ce54ff0e64",
-            "source": {
-              "x": 530,
-              "y": -90
-            },
-            "target": {
-              "x": 540,
-              "y": 370
-            },
-            "vertices": [
-              {
-                "x": 540,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Query aggregated \nsales data",
               "description": "",
               "outOfScope": false,
@@ -1160,12 +1058,114 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send pending \norder data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send pending \norder data"
+            ],
+            "id": "92220c20-3c03-427f-bce4-86eb0913ea5b",
+            "source": {
+              "x": 410,
+              "y": 380
+            },
+            "target": {
+              "x": 410,
+              "y": -100
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Update order \nstatus",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Update order \nstatus"
+            ],
+            "id": "1fdf2828-1256-407e-a382-84ce54ff0e64",
+            "source": {
+              "x": 530,
+              "y": -90
+            },
+            "target": {
+              "x": 540,
+              "y": 370
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": -20
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 199.99999999999994,
+              "x": 199.9999999999999,
               "y": 400.0000000000008
             },
             "size": {
-              "width": 550,
+              "width": 590,
               "height": 90
             },
             "attrs": {
@@ -1375,17 +1375,17 @@
             ],
             "id": "e568b588-d69e-4572-b783-b675ce5c4d71",
             "source": {
-              "x": 380,
-              "y": -120
+              "x": 360,
+              "y": -110
             },
             "target": {
-              "x": 340,
-              "y": 370
+              "x": 320,
+              "y": 380
             },
             "vertices": [
               {
-                "x": 340,
-                "y": -60
+                "x": 320,
+                "y": -10
               }
             ]
           }
