@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -830.0000000000061,
-              "y": -1129.9999999999977
+              "x": -770,
+              "y": -1060
             },
             "size": {
               "width": 480,
@@ -61,8 +61,8 @@
           },
           {
             "position": {
-              "x": 1217.999999999992,
-              "y": -1109.9999999999968
+              "x": 1187.999999999992,
+              "y": -1060
             },
             "size": {
               "width": 540,
@@ -82,8 +82,8 @@
           },
           {
             "position": {
-              "x": -660.0000000000016,
-              "y": -1044.9999999999968
+              "x": -585,
+              "y": -985
             },
             "size": {
               "width": 110,
@@ -594,8 +594,8 @@
           },
           {
             "position": {
-              "x": 1257.999999999992,
-              "y": -1004.9999999999989
+              "x": 1227.999999999992,
+              "y": -960
             },
             "size": {
               "width": 460,
@@ -1042,57 +1042,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send transaction \nresponse",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send transaction \nresponse"
-            ],
-            "id": "8ae136e1-0a64-4446-bee6-9edb94158456",
-            "source": {
-              "x": 1270,
-              "y": -710
-            },
-            "target": {
-              "x": 780,
-              "y": -380
-            },
-            "vertices": [
-              {
-                "x": 1060,
-                "y": -580
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Customer submit order",
               "description": "",
               "outOfScope": false,
@@ -1326,37 +1275,7 @@
                 "x": -120,
                 "y": -480
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "shape": "flow",
@@ -1457,6 +1376,57 @@
               {
                 "x": -110,
                 "y": -220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send transaction \nresponse",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send transaction \nresponse"
+            ],
+            "id": "8ae136e1-0a64-4446-bee6-9edb94158456",
+            "source": {
+              "x": 1250,
+              "y": -700
+            },
+            "target": {
+              "x": 780,
+              "y": -380
+            },
+            "vertices": [
+              {
+                "x": 1060,
+                "y": -580
               }
             ]
           },
