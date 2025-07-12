@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -770,
-              "y": -1060
+              "x": -1220,
+              "y": -920
             },
             "size": {
               "width": 480,
@@ -82,8 +82,8 @@
           },
           {
             "position": {
-              "x": -585,
-              "y": -985
+              "x": -1080,
+              "y": -870
             },
             "size": {
               "width": 110,
@@ -239,12 +239,12 @@
           },
           {
             "position": {
-              "x": 34.99999999999636,
-              "y": -610
+              "x": 59.999999999999375,
+              "y": -980.0000000000002
             },
             "size": {
-              "width": 910,
-              "height": 470
+              "width": 880,
+              "height": 990
             },
             "attrs": {
               "text": {
@@ -1297,6 +1297,57 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Send transaction \nresponse",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send transaction \nresponse"
+            ],
+            "id": "8ae136e1-0a64-4446-bee6-9edb94158456",
+            "source": {
+              "x": 1250,
+              "y": -700
+            },
+            "target": {
+              "x": 780,
+              "y": -380
+            },
+            "vertices": [
+              {
+                "x": 1060,
+                "y": -580
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Manager request to\nview basic sales report",
               "description": "",
               "outOfScope": false,
@@ -1314,19 +1365,14 @@
             ],
             "id": "bd3d98d7-0e35-4b12-b835-671840d65df9",
             "source": {
-              "x": -420,
-              "y": -430
+              "x": -910,
+              "y": -320
             },
             "target": {
-              "x": 200,
-              "y": -280
+              "x": 50,
+              "y": -320
             },
-            "vertices": [
-              {
-                "x": -100,
-                "y": -350
-              }
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -1365,68 +1411,17 @@
             ],
             "id": "0541cb54-8af3-4186-bb5c-b0b010534782",
             "source": {
-              "x": -420,
-              "y": -250
+              "x": -910,
+              "y": -140
             },
             "target": {
-              "x": 190,
-              "y": -200
+              "x": 120,
+              "y": -140
             },
             "vertices": [
               {
-                "x": -110,
-                "y": -220
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send transaction \nresponse",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send transaction \nresponse"
-            ],
-            "id": "8ae136e1-0a64-4446-bee6-9edb94158456",
-            "source": {
-              "x": 1250,
-              "y": -700
-            },
-            "target": {
-              "x": 780,
-              "y": -380
-            },
-            "vertices": [
-              {
-                "x": 1060,
-                "y": -580
+                "x": -390,
+                "y": -140
               }
             ]
           },
@@ -1822,57 +1817,6 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 14,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send sales data to Manager",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send sales data to Manager"
-            ],
-            "id": "54c46801-5a04-410a-b698-f70c69691869",
-            "source": {
-              "x": 190,
-              "y": -240
-            },
-            "target": {
-              "x": -420,
-              "y": -360
-            },
-            "vertices": [
-              {
-                "x": -110,
-                "y": -300
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
             "zIndex": 15,
             "connector": "smooth",
             "data": {
@@ -1894,17 +1838,68 @@
             ],
             "id": "665478c0-50c8-4df4-8190-10648a7752d9",
             "source": {
-              "x": 180,
-              "y": -160
+              "x": 140,
+              "y": -100
             },
             "target": {
-              "x": -420,
-              "y": -190
+              "x": -910,
+              "y": -100
             },
             "vertices": [
               {
-                "x": -100,
-                "y": -160
+                "x": -440,
+                "y": -100
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 16,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send sales data to Manager",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send sales data to Manager"
+            ],
+            "id": "54c46801-5a04-410a-b698-f70c69691869",
+            "source": {
+              "x": 100,
+              "y": -230
+            },
+            "target": {
+              "x": -910,
+              "y": -270
+            },
+            "vertices": [
+              {
+                "x": -380,
+                "y": -220
               }
             ]
           }
