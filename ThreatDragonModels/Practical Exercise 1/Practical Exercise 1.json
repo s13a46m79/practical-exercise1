@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -1140,
-              "y": -945
+              "x": -1110,
+              "y": -960
             },
             "size": {
               "width": 290,
@@ -61,8 +61,8 @@
           },
           {
             "position": {
-              "x": 1187.999999999992,
-              "y": -1060
+              "x": 1367.999999999992,
+              "y": -810
             },
             "size": {
               "width": 540,
@@ -82,8 +82,8 @@
           },
           {
             "position": {
-              "x": -1060.0000000000005,
-              "y": -830
+              "x": -1020,
+              "y": -860
             },
             "size": {
               "width": 110,
@@ -594,8 +594,8 @@
           },
           {
             "position": {
-              "x": 1227.999999999992,
-              "y": -960
+              "x": 1407.999999999992,
+              "y": -695
             },
             "size": {
               "width": 460,
@@ -710,153 +710,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send tokenized \npayment information",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send tokenized \npayment information"
-            ],
-            "id": "95b44e7e-00df-4749-b9b1-d9e7e67ad7fc",
-            "source": {
-              "x": 750,
-              "y": -460
-            },
-            "target": {
-              "cell": "aa33d36c-aa41-4401-a495-dfa2b4fb69a8",
-              "port": "dad7b0ef-0780-463c-9833-f80e618ad1af"
-            },
-            "vertices": [
-              {
-                "x": 970,
-                "y": -620
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send transaction \nresponse",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send transaction \nresponse"
-            ],
-            "id": "8ae136e1-0a64-4446-bee6-9edb94158456",
-            "source": {
-              "x": 1250,
-              "y": -700
-            },
-            "target": {
-              "x": 780,
-              "y": -380
-            },
-            "vertices": [
-              {
-                "x": 1060,
-                "y": -580
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Query user data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Query user data"
-            ],
-            "id": "4c1ed1ac-98d4-4188-bb11-04e3bb8dc5ed",
-            "source": {
-              "x": 119,
-              "y": -60
-            },
-            "target": {
-              "x": 120,
-              "y": 410
             }
           },
           {
@@ -1027,57 +880,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send user data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send user data"
-            ],
-            "id": "9a4e25aa-5292-4a99-a8bf-1da9a05da585",
-            "source": {
-              "x": 220,
-              "y": 410
-            },
-            "target": {
-              "x": 220,
-              "y": -50
-            },
-            "vertices": [
-              {
-                "x": 220,
-                "y": 190
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Set login cookie",
               "description": "",
               "outOfScope": false,
@@ -1140,7 +942,7 @@
             ],
             "id": "532c939c-33ca-41cc-8d46-1edcb966cdd2",
             "source": {
-              "x": -900,
+              "x": -910,
               "y": -700
             },
             "target": {
@@ -1190,7 +992,7 @@
               "y": -670
             },
             "target": {
-              "x": -900,
+              "x": -910,
               "y": -670
             },
             "vertices": []
@@ -1232,7 +1034,7 @@
             ],
             "id": "fef457f0-473c-4fcc-9438-017e669d7b00",
             "source": {
-              "x": -890,
+              "x": -910,
               "y": -550
             },
             "target": {
@@ -1282,7 +1084,7 @@
               "y": -510
             },
             "target": {
-              "x": -890,
+              "x": -910,
               "y": -510
             },
             "vertices": []
@@ -1324,7 +1126,7 @@
             ],
             "id": "2a6d7082-ce1c-4200-b40b-f39d37866142",
             "source": {
-              "x": -890,
+              "x": -910,
               "y": -480
             },
             "target": {
@@ -1375,7 +1177,7 @@
             ],
             "id": "bd3d98d7-0e35-4b12-b835-671840d65df9",
             "source": {
-              "x": -890,
+              "x": -910,
               "y": -400
             },
             "target": {
@@ -1421,7 +1223,7 @@
             ],
             "id": "0541cb54-8af3-4186-bb5c-b0b010534782",
             "source": {
-              "x": -890,
+              "x": -910,
               "y": -270
             },
             "target": {
@@ -1432,6 +1234,199 @@
               {
                 "x": -400,
                 "y": -270
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send tokenized \npayment information",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send tokenized \npayment information"
+            ],
+            "id": "95b44e7e-00df-4749-b9b1-d9e7e67ad7fc",
+            "source": {
+              "x": 950,
+              "y": -560
+            },
+            "target": {
+              "x": 1410,
+              "y": -560
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send transaction \nresponse",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send transaction \nresponse"
+            ],
+            "id": "8ae136e1-0a64-4446-bee6-9edb94158456",
+            "source": {
+              "x": 1400,
+              "y": -450
+            },
+            "target": {
+              "x": 960,
+              "y": -450
+            },
+            "vertices": [
+              {
+                "x": 1190,
+                "y": -450
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query user data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Query user data"
+            ],
+            "id": "4c1ed1ac-98d4-4188-bb11-04e3bb8dc5ed",
+            "source": {
+              "x": 120,
+              "y": -170
+            },
+            "target": {
+              "x": 120,
+              "y": 410
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send user data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send user data"
+            ],
+            "id": "9a4e25aa-5292-4a99-a8bf-1da9a05da585",
+            "source": {
+              "x": 220,
+              "y": 410
+            },
+            "target": {
+              "x": 220,
+              "y": -130
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 190
               }
             ]
           },
@@ -1848,7 +1843,7 @@
               "y": -230
             },
             "target": {
-              "x": -880,
+              "x": -910,
               "y": -230
             },
             "vertices": []
@@ -1894,7 +1889,7 @@
               "y": -370
             },
             "target": {
-              "x": -890,
+              "x": -910,
               "y": -370
             },
             "vertices": []
