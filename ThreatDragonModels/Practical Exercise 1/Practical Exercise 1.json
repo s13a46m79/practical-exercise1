@@ -20,7 +20,7 @@
           {
             "position": {
               "x": -1140,
-              "y": -795
+              "y": -945
             },
             "size": {
               "width": 290,
@@ -40,7 +40,7 @@
           },
           {
             "position": {
-              "x": -120,
+              "x": -110,
               "y": -1060
             },
             "size": {
@@ -82,8 +82,8 @@
           },
           {
             "position": {
-              "x": -1050,
-              "y": -670
+              "x": -1060,
+              "y": -830
             },
             "size": {
               "width": 110,
@@ -1176,51 +1176,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send login credentials",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send login credentials"
-            ],
-            "id": "62f4e5fc-5e79-4f1e-b079-e6ce8be002b7",
-            "source": {
-              "x": -910,
-              "y": -620
-            },
-            "target": {
-              "x": 60,
-              "y": -620
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Set login cookie",
               "description": "",
               "outOfScope": false,
@@ -1290,57 +1245,6 @@
               "x": 120,
               "y": 410
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send user data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Send user data"
-            ],
-            "id": "9a4e25aa-5292-4a99-a8bf-1da9a05da585",
-            "source": {
-              "x": 210,
-              "y": 410
-            },
-            "target": {
-              "x": 210,
-              "y": -50
-            },
-            "vertices": [
-              {
-                "x": 210,
-                "y": 190
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1491,9 +1395,60 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send user data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send user data"
+            ],
+            "id": "9a4e25aa-5292-4a99-a8bf-1da9a05da585",
+            "source": {
+              "x": 220,
+              "y": 410
+            },
+            "target": {
+              "x": 220,
+              "y": -50
+            },
+            "vertices": [
+              {
+                "x": 220,
+                "y": 190
+              }
+            ]
+          },
+          {
             "position": {
-              "x": 50,
-              "y": 470
+              "x": 60,
+              "y": 410
             },
             "size": {
               "width": 960,
@@ -1797,14 +1752,19 @@
             ],
             "id": "65d3642e-9385-4274-ba18-b1b4d21fd3c0",
             "source": {
-              "x": 320,
-              "y": -50
+              "x": 350,
+              "y": -40
             },
             "target": {
-              "x": 320,
-              "y": 410
+              "x": 350,
+              "y": 400
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 350,
+                "y": 170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2094,6 +2054,51 @@
                 "target-arrowhead"
               ],
               "name": null
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 20,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send login credentials",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send login credentials"
+            ],
+            "id": "62f4e5fc-5e79-4f1e-b079-e6ce8be002b7",
+            "source": {
+              "x": -910,
+              "y": -820
+            },
+            "target": {
+              "x": 60,
+              "y": -820
             }
           }
         ]
