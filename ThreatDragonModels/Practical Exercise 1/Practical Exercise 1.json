@@ -925,52 +925,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Customer submit order",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Customer submit order"
-            ],
-            "id": "532c939c-33ca-41cc-8d46-1edcb966cdd2",
-            "source": {
-              "x": -910,
-              "y": -700
-            },
-            "target": {
-              "x": 90,
-              "y": -700
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send order \nconfirmation \nand status to Customer",
               "description": "",
               "outOfScope": false,
@@ -1206,57 +1160,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Administrator submit \nnew menu item details",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Administrator submit \nnew menu item details"
-            ],
-            "id": "0541cb54-8af3-4186-bb5c-b0b010534782",
-            "source": {
-              "x": -910,
-              "y": -270
-            },
-            "target": {
-              "x": 90,
-              "y": -270
-            },
-            "vertices": [
-              {
-                "x": -400,
-                "y": -270
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send tokenized \npayment information",
               "description": "",
               "outOfScope": false,
@@ -1427,6 +1330,133 @@
               {
                 "x": 220,
                 "y": 190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Customer submit order",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "989f7fcc-0212-4fb6-b23b-8a4a1ad543ed",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                }
+              ]
+            },
+            "labels": [
+              "Customer submit order"
+            ],
+            "id": "532c939c-33ca-41cc-8d46-1edcb966cdd2",
+            "source": {
+              "x": -910,
+              "y": -700
+            },
+            "target": {
+              "x": 90,
+              "y": -700
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Administrator submit \nnew menu item details",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "31ab575c-b5f5-4613-bb3a-17830e6335e5",
+                  "title": "Menu Data Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker could alter menu item data (e.g., prices or descriptions) before it is stored in the database.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "default",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                }
+              ]
+            },
+            "labels": [
+              "Administrator submit \nnew menu item details"
+            ],
+            "id": "0541cb54-8af3-4186-bb5c-b0b010534782",
+            "source": {
+              "x": -910,
+              "y": -270
+            },
+            "target": {
+              "x": 90,
+              "y": -270
+            },
+            "vertices": [
+              {
+                "x": -400,
+                "y": -270
               }
             ]
           },
@@ -1989,46 +2019,6 @@
               "x": 940,
               "y": 410
             },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            },
             "vertices": [
               {
                 "x": 940,
@@ -2086,6 +2076,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 32
+    "threatTop": 34
   }
 }
